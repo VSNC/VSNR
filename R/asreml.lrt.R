@@ -9,7 +9,7 @@
 #' @seealso \code{\link{model.comp}}
 #' @examples
 #' library(asreml)
-#' library(vsnc)
+#' library(VSNR)
 #' data(oats,package = "asreml")
 #' head(oats)
 #' m1 <- asreml(yield ~ 1, random=~Nitrogen*Variety, data=oats)
